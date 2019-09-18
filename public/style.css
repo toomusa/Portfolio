@@ -1,0 +1,790 @@
+
+hr {
+  border-top: 1px solid bisque;
+  opacity: 0.7;
+  width: 80%;
+  box-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h5 {
+  font-weight: bold;
+  color: rgb(19, 0, 190);
+}
+
+h3 {
+  font-weight: bold;
+  color: rgb(190, 0, 0);
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: black;
+  background-attachment: fixed;
+  /* background-image: url('http://pavbca.com/walldb/original/d/8/b/784755.jpg');     */
+  background-image: url('https://www.tokkoro.com/picsup/5090693-bridge-city-golden-gate-night-san-francisco-usa.jpg');    
+  /* background-image: url('https://amp.businessinsider.com/images/5ce80be7a7999b6ca90bcbc5-1920-960.jpg');     */
+  /* background-image: url('https://besthqwallpapers.com/Uploads/29-6-2019/98667/san-francisco-4k-summer-american-cities-california.jpg');     */
+  background-size: 100% auto;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  overflow: auto;
+  display: relative;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  /* padding-bottom: 50px; */
+}
+
+#bodyContainer {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgb(229, 240, 250);
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow:
+    5px 5px 10px #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#pageHeading {
+  float: left;
+  margin-left: 400px;
+  color: bisque;
+  font-size: 20px;
+  text-align: left;
+  margin-top: -15px;
+}
+
+#mainBackground {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(1, 0, 66, 0.7);
+}
+
+#header {
+  background-color: rgba(1, 0, 66, 0.7);
+  color: black;
+  padding-top: 30px;
+  text-align: right;
+  height: 100px;
+}
+
+#footer {
+  background-color: rgba(1, 0, 66, 0.7);
+  color: bisque;
+  padding: 30px;
+  text-align: center;
+  height: 100px;
+}
+
+#media {
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 1px;
+}
+
+#about {
+  padding-top: 10px;
+}
+
+#home {
+  padding-top: 20px;
+}
+
+#myStory {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 18px;
+}
+
+#profilePhoto {
+  width: 40%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 15px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#projectsBox {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#mediaBox {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#memeBox {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#aboutBox {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#memeImage {
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  padding: 1px;
+  margin-top: 5px;
+}
+
+#mediaImage {
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+#projectsImage {
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+#aboutImage {
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+#projectsBox a {
+  color: black;
+  text-decoration: none;
+}
+
+#projectsBox a:hover {
+  color: blue;
+}
+
+#projectsBox h5 {
+  font-size: 24px;
+}
+
+#memeBox a {
+  color: black;
+  text-decoration: none;
+}
+
+#memeBox a:hover {
+  color: blue;
+}
+
+#memeBox h5 {
+  font-size: 24px;
+}
+
+#mediaBox a {
+  color: black;
+  text-decoration: none;
+}
+
+#mediaBox a:hover {
+  color: blue;
+}
+
+#mediaBox h5 {
+  font-size: 24px;
+}
+
+#aboutBox a {
+  color: black;
+  text-decoration: none;
+}
+
+#aboutBox a:hover {
+  color: blue;
+}
+
+#aboutBox h5 {
+  font-size: 24px;
+}
+
+#storyImage {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 50%;
+  margin-top: 15px;
+  /* margin-left: 90px; */
+  border: 2px solid black;
+  z-index: 1;
+  position: relative;
+  box-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+  -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#sidebar {
+  text-align: center;
+  background-color: rgba(1, 0, 66, 0.7);
+  padding-left: 50px;
+}
+
+#sidebarDiv {
+  margin-top: -90px;
+  height: 100%;
+}
+
+#nameTxt {
+  font-size: 32px;
+  margin-top: 10px;
+  text-align: center;
+  color: bisque;
+  letter-spacing: 1px;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#titleTxt {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: bisque;
+  letter-spacing: 1px;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#icons {
+  text-align: left;
+  text-decoration: none;
+  color: bisque;
+}
+
+#icons a {
+  color: bisque;
+  
+}
+
+#icons a:hover {
+  color: blue;
+}
+
+#infoBox {
+  text-align: center;
+  margin: 15px 0 20px 20px;
+}
+
+#stackDiv {
+  margin: 0px 0px 0px -10px;
+}
+
+#stackDiv h4 {
+  margin-bottom: 20px;
+}
+
+.iconBlock {
+  display: inline-block;
+}
+
+#barbeque {
+  width: 90%;
+  margin-right: 40px;
+  float: right;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-top: 20px;
+  position: relative;
+  right: 0px;
+}
+
+#einstein {
+  width: 90%;
+  margin-right: 40px;
+  float: right;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-top: 20px;
+  position: relative;
+  right: 0px;
+}
+
+#yosemite {
+  width: 90%;
+  margin-right: 40px;
+  float: right;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-top: 20px;
+  position: relative;
+  right: 0px;
+}
+
+.stackIcon {
+  font-size: 40px;
+  color: bisque;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.stackImg {
+  width: 40px;
+  color: bisque;
+}
+
+.infoRow {
+  margin: 15px 0px 15px -20px;
+}
+
+.iconImg {
+  font-size: 25px;
+  vertical-align: bottom;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.iconBox {
+  float: left;
+  margin: 10px 10px 5px 10px;
+}
+
+.infoTxt {
+  font-size: 18px;
+  vertical-align: 4px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.spacer {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.iconSpacer {
+  margin-left: 6px;
+}
+
+.iconSpacer2 {
+  margin-left: 2px;
+}
+
+.iconUnSpacer {
+  margin-left: -3px;
+}
+
+.linkBox {
+  width: 100%;
+  height: 100%;
+}
+
+.homeTitle {
+  text-align: center;
+  margin: 0px 0 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#homeText {
+  font-size: 18px;
+  padding: 0;
+}
+
+.summaryBox {
+  margin-left: 20px;
+  /* border: 3px solid rgb(240, 219, 219); */
+  padding: 2px;
+  height: 250px;
+}
+
+.storyTitle {
+  margin: 20px 0 0px 0;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#storyTitleDiv {
+  margin: 0;
+  padding: 0;
+}
+
+#storyImagesDiv {
+  margin: 10px 0 20px 0;
+}
+
+#memeTitle {
+  font-size: 36px;
+  text-align: center;
+  margin: 30px 0 15px 0;
+  font-weight: bold;
+}
+
+#myStory p {
+  margin: 30px 20px 40px 20px;
+}
+
+#memesDiv {
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 50px;
+}
+
+.meme {
+  object-fit: contain;
+  float: left;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 15px;
+  max-height: 300px;
+  min-height: 300px;
+  max-width: 30%;
+  width: 32%;
+  /* height: 32%; */
+  /* min-height: 300px;
+  min-width: 300px; */
+}
+
+.modalMeme {
+  object-fit: none;
+  float: left;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+.video {
+  object-fit: contain;
+  float: left;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 500px;
+}
+
+.topDiv {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.spacerDiv {
+  height: 200px;
+}
+
+.videoDiv {
+  text-align: center;
+  width: 100%;
+  height: 85%;
+  border: 1px solid black;
+  padding: 0px;
+  margin-bottom: 70px;
+}
+
+.playerDiv {
+  text-align: center;
+  max-width: 100%;
+  padding: 0 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+.captionDiv {
+  text-align: center;
+  max-width: 100%;
+  font-size: 18px;
+  padding: 10px 40px;
+}
+
+#videoTitle {
+  font-size: 36px;
+  text-align: center;
+  margin: 30px 0 30px 0;
+  font-weight: bold;
+}
+
+.mediaTitle {
+  margin-top: 15px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  max-width: 100%;
+  color: rgb(190, 0, 0);
+}
+
+.galleryBody {
+  text-align: center;
+  max-width: 100%;
+  padding: 0 0px 20px 0px;
+}
+
+.galleryDiv {
+  text-align: center;
+  width: 100%;
+  height: 85%;
+  border: 1px solid black;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.galleryTitle {
+  margin-top: 15px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  max-width: 100%;
+  color: rgb(190, 0, 0);
+}
+
+.gallery {
+  object-fit: contain;
+  float: left;
+  border: 3px solid black;
+}
+
+.galleryCaption {
+  text-align: center;
+  max-width: 100%;
+  font-size: 18px;
+  padding: 10px 40px;
+}
+
+.cloudReview {
+  object-fit: cover;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 200px;
+  padding-bottom: 1px;
+}
+
+#galleryBox {
+  z-index: 100;
+}
+
+.filesBody {
+  text-align: center;
+  max-width: 100%;
+  padding: 0 0px 20px 0px;
+}
+
+.filesDiv {
+  text-align: center;
+  width: 100%;
+  height: 85%;
+  border: 1px solid black;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.filesTitle {
+  margin-top: 15px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  max-width: 100%;
+  color: rgb(190, 0, 0);
+}
+
+.filesCaption {
+  text-align: center;
+  max-width: 100%;
+  font-size: 18px;
+  padding: 10px 40px;
+}
+
+.sustainability {
+  object-fit: cover;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 200px;
+  padding-bottom: 2px;
+}
+
+
+/* PROJECTS PAGE STYLES */
+
+strong {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+#projectExtraDiv {
+  widows: 100%;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 0 30px 0;
+  padding: 20px 5px 10px 5px;
+}
+
+#projectExtraImage {
+  height: 80%;
+  max-height: 200px;
+  border: 1px solid black;
+}
+
+#projectExtraTitle {
+  text-align: center;
+  margin: 30px 0 20px 0;
+  font-size: 30px;
+}
+
+.projectExtraList {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.projectExtraList a {
+  font-weight: bold;
+}
+
+.listSpacer {
+  min-height: 5px;
+  max-height: 5px;
+  display: block;
+}
+
+#projectExtraDiv h3 {
+  margin: -5px 0 15px 0;
+  text-align: center;
+  font-size: 24px;
+}
+
+#projectContainer {
+  text-align: center;
+}
+
+#projectTitle {
+  text-align: center;
+  margin: 30px 0 30px 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#projectDiv {
+  text-align: center;
+  border: 1px solid black;
+  margin: 30px 0;
+  padding: 20px 0 10px 0;
+}
+
+#projectImageDiv {
+  text-align: center;
+  max-height: 250px;
+}
+
+#projectImageDiv h3 {
+  font-size: 40px;
+  margin: 0px 0 15px 0;
+  margin-right: -30px;
+}
+
+#projectImage {
+  height: 80%;
+  margin-right: -30px;
+  max-height: 200px;
+}
+
+#projectDetails {
+  text-align: left;
+}
+
+#projectMeta {
+  text-align: left;
+}
+
+.projectList {
+  margin-bottom: 10px;
+  text-indent: -10px;
+  margin-left: 10px;
+}
+
+/* NAVBAR STYLES */
+
+#navContainer {
+  margin-right: 0px;
+}
+
+#navbar-menu {
+  margin-right: 100px;
+  display: inline-block;
+}
+
+#navbar-menu a {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: bisque;
+  margin: 0 10px;
+  transform: scale(1, 1.1);
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+    
+#navbar-menu .active {
+  color: rgb(255, 140, 0);
+  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+#navbar-menu a:hover {
+  color: rgb(255, 140, 0);
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+  
