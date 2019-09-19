@@ -28,7 +28,7 @@ export default function Home(props) {
               <br></br>
               <span className="listSpacer"></span>
               <span className="listSpacer"></span>
-              <span className="bold">Adaptive</span> to competing priorities, organized, composed, proactive, and resillient.</p>              
+              <span className="bold">Adaptive</span> to competing priorities, organized, composed, proactive, and resilient.</p>              
           </div>
           <br></br>
             <h5 className="homeTitle">Technologies</h5>
