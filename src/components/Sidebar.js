@@ -15,7 +15,7 @@ export default function StoryBox() {
       <div className="container-fluid" id="infoBox">
         <div className="row infoRow">
           <div className="col-md-11 col-sm-11 col-xs-11" id="icons">
-            <a href="mailto:musa.akbari@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:musa.akbari@gmail.com" rel="noopener noreferrer">
               <i className="fas fa-envelope iconImg iconUnSpacer">
                 <span className="spacer"></span>
                 <span className="infoTxt">musa.akbari@gmail.com</span></i>
