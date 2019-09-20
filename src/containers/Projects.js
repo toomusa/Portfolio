@@ -44,7 +44,7 @@ export default function Projecs() {
                       </div>
                       <div className="projectList">
                         <strong>Website: </strong>
-                        <span><a href="https://www.notyet.app" target="_blank" rel="noopener noreferrer">Heroku</a></span>
+                        <span><a href="https://www.notyet.app" target="_blank" rel="noopener noreferrer">notyet.app</a></span>
                       </div>
                       <div className="projectList">
                         <strong>Repo: </strong>
