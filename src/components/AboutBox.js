@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import Einstein from "../assets/images/Einstein.png"
+import Einstein from "../assets/images/Einstein.jpg"
 
 export default function AboutBox(props) {
   return (
